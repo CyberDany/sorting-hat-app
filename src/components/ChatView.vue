@@ -67,8 +67,7 @@ export default {
             return this.showQuizComponent;
         },
         isLastQuestion() {
-            return (this.currentQuestionIndex == 3);
-            //return (this.currentQuestionIndex == (this.questions.length - 1));
+            return (this.currentQuestionIndex == (this.questions.length - 1));
         }
 
     },
