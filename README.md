@@ -55,7 +55,7 @@ To get the Sorting Hat Challenge up and running on your local machine, you'll ne
 
     After cloning, move into the project directory that was created during the cloning process:
 
-    <pre><code>cd sorting-hat-challenge</code></pre>
+    <pre><code>cd sorting-hat-app</code></pre>
 
 3. **Install Dependencies**
 
