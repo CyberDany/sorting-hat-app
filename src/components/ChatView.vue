@@ -120,7 +120,7 @@ export default {
             setTimeout(() => {
                 this.showQuizComponent = true;
                 this.scrollToBottom();
-            }, 2000);
+            }, 1000);
         },
         showFinalResult() {
             this.$store.commit("SET_QUIZ_STATE", false);
@@ -132,7 +132,7 @@ export default {
                     this.chatLines.push({ text: message, isUser: false });
                     this.scrollToBottom();
                     resolve();
-                }, 2000);
+                }, 500);
             });
         },
         addUserMessage(message) {

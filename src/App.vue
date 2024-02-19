@@ -89,7 +89,7 @@ export default {
     setTimeout(() => {
       this.loadingState = false;
       this.$store.commit("SET_INITIAL_STATE", true);
-    }, 4000);
+    }, 3000);
   }
 };
 </script>

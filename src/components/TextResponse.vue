@@ -36,7 +36,7 @@ export default {
     opacity: 0;
     transition: opacity 1s ease-in-out;
     animation: fadeInAnimation 1s ease-in-out forwards;
-    animation-delay: 2s;
+    animation-delay: 1s;
 }
 
 @keyframes fadeInAnimation {
